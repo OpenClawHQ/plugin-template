@@ -35,7 +35,7 @@ cp -r examples/hello-world ~/.openclaw/workspace/skills/hello-world
 # Verify it appears in the list
 openclaw skills list
 
-# You can reference it in OpenClaw conversations
+# You can reference it in Claude conversations
 ```
 
 ## Commands / Actions
@@ -44,13 +44,13 @@ This example skill doesn't define any commands—it's purely a reference impleme
 
 ## Examples
 
-In an OpenClaw conversation, you might reference this skill like:
+In a Claude conversation, you might reference this skill like:
 
 ```
 I want to learn about OpenClaw skills. Can you explain the hello-world example skill?
 ```
 
-OpenClaw can then look at this skill's SKILL.md to understand the minimal format required.
+Claude can then look at this skill's SKILL.md to understand the minimal format required.
 
 ## Notes
 

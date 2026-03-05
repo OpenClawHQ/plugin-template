@@ -150,7 +150,7 @@ openclaw invoke my-skill operation --flag value --another-flag true
 Expected output: What the user should see
 
 ### Example 3: Integration Pattern
-Explain how this skill works with other skills or OpenClaw's capabilities.
+Explain how this skill works with other skills or Claude's capabilities.
 
 ## Notes
 

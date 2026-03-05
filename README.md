@@ -1,8 +1,8 @@
 # OpenClaw Skill Template
 
-A starter template for creating OpenClaw Skills. **Skills** are language-agnostic Markdown files with YAML frontmatter that extend OpenClaw's capabilities by providing access to tools, APIs, and external systems.
+A starter template for creating OpenClaw Skills. **Skills** are language-agnostic Markdown files with YAML frontmatter that extend Claude's capabilities by providing access to tools, APIs, and external systems.
 
-**Fork this repo** and start building your own skill. Every claw extends the reach.
+**Fork this repo** and start building your own skill to extend Claude's reach.
 
 ## What is an OpenClaw Skill?
 
@@ -11,7 +11,7 @@ An OpenClaw Skill is a Markdown file (`SKILL.md`) containing:
 - **YAML frontmatter**: Metadata (name, description, requirements, installation instructions)
 - **Markdown body**: Documentation describing purpose, usage, commands, and examples
 
-Skills are distributed via the **ClawHub registry** and installed locally to `~/.openclaw/workspace/skills/<skill-name>/`. They enable OpenClaw to interact with external systems without requiring code deployments or complex plugin infrastructure.
+Skills are distributed via the **ClawHub registry** and installed locally to `~/.openclaw/workspace/skills/<skill-name>/`. They enable Claude to interact with external systems without requiring code deployments or complex plugin infrastructure.
 
 ## Quick Start
 
@@ -175,7 +175,7 @@ When your skill is complete:
 2. Ensure `SKILL.md` has all required fields
 3. Push to your repo and tag a release (e.g., `v1.0.0`)
 4. Run `clawhub publish` to submit to the registry
-5. (Optional) Submit a PR to [awesome-openclaw](https://github.com/OpenClawHQ/awesome-openclaw) to get your skill listed
+5. (Optional) Submit a PR to [awesome-openclaw](https://github.com/OpenClawHQ/awesome-openclaw)
 
 ## Installation Methods Reference
 
@@ -230,7 +230,7 @@ For tools without package managers or custom setups:
 ## Resources
 
 - **OpenClaw Docs**: https://docs.openclaw.io
-- **ClawHub Registry**: https://clawhub.com
+- **ClawHub Registry**: https://clawhub.io
 - **GitHub Skills Repository**: https://github.com/OpenClawHQ/skills
 - **Contributing Guide**: https://github.com/OpenClawHQ/.github/blob/main/CONTRIBUTING.md
 
@@ -244,4 +244,4 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
-Built with the [OpenClaw Skill Template](https://github.com/OpenClawHQ/plugin-template). Every claw extends the reach.
+Built with the [OpenClaw Skill Template](https://github.com/OpenClawHQ/skill-template). Every skill extends Claude's reach.
