@@ -1,12 +1,12 @@
 # OpenClaw Skill Template
 
-[![Use this template](https://img.shields.io/badge/use%20this-template-0075ca?logo=github)](https://github.com/OpenClawHQ/plugin-template/generate) [![CI](https://github.com/OpenClawHQ/plugin-template/actions/workflows/ci.yml/badge.svg)](https://github.com/OpenClawHQ/plugin-template/actions) [![ClawHub](https://img.shields.io/badge/publish%20to-ClawHub-E03E3E)](https://clawhub.com) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![Use this template](https://img.shields.io/badge/use%20this-template-0075ca?logo=github)](https://github.com/effectorHQ/plugin-template/generate) [![CI](https://github.com/effectorHQ/plugin-template/actions/workflows/ci.yml/badge.svg)](https://github.com/effectorHQ/plugin-template/actions) [![ClawHub](https://img.shields.io/badge/publish%20to-ClawHub-E03E3E)](https://clawhub.com) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 **[中文文档 →](./README.zh.md)**
 
 A starter template for creating OpenClaw Skills. **Skills** are language-agnostic Markdown files with YAML frontmatter that extend OpenClaw's capabilities by providing access to tools, APIs, and external systems.
 
-**Fork this repo** and start building your own skill. Every claw extends the reach.
+**Fork this repo** and start building your own skill. Every effector extends the reach.
 
 ## What is an OpenClaw Skill?
 
@@ -179,7 +179,7 @@ When your skill is complete:
 2. Ensure `SKILL.md` has all required fields
 3. Push to your repo and tag a release (e.g., `v1.0.0`)
 4. Run `clawhub publish` to submit to the registry
-5. (Optional) Submit a PR to [awesome-openclaw](https://github.com/OpenClawHQ/awesome-openclaw)
+5. (Optional) Submit a PR to [awesome-openclaw](https://github.com/effectorHQ/awesome-openclaw)
 
 ## Installation Methods Reference
 
@@ -235,8 +235,8 @@ For tools without package managers or custom setups:
 
 - **OpenClaw Docs**: https://docs.openclaw.io
 - **ClawHub Registry**: https://clawhub.io
-- **GitHub Skills Repository**: https://github.com/OpenClawHQ/skills
-- **Contributing Guide**: https://github.com/OpenClawHQ/.github/blob/main/CONTRIBUTING.md
+- **GitHub Skills Repository**: https://github.com/effectorHQ/skills
+- **Contributing Guide**: https://github.com/effectorHQ/.github/blob/main/CONTRIBUTING.md
 
 ## Contributing
 
@@ -248,4 +248,4 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
-Built with the [OpenClaw Skill Template](https://github.com/OpenClawHQ/skill-template). Every skill extends Claude's reach.
+Built with the [OpenClaw Skill Template](https://github.com/effectorHQ/skill-template). Every skill extends Claude's reach.

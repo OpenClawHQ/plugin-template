@@ -1,6 +1,6 @@
 # OpenClaw Skill 模板
 
-[![使用此模板](https://img.shields.io/badge/use%20this-template-0075ca?logo=github)](https://github.com/OpenClawHQ/plugin-template/generate) [![CI](https://github.com/OpenClawHQ/plugin-template/actions/workflows/ci.yml/badge.svg)](https://github.com/OpenClawHQ/plugin-template/actions) [![ClawHub](https://img.shields.io/badge/publish%20to-ClawHub-E03E3E)](https://clawhub.com) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![使用此模板](https://img.shields.io/badge/use%20this-template-0075ca?logo=github)](https://github.com/effectorHQ/plugin-template/generate) [![CI](https://github.com/effectorHQ/plugin-template/actions/workflows/ci.yml/badge.svg)](https://github.com/effectorHQ/plugin-template/actions) [![ClawHub](https://img.shields.io/badge/publish%20to-ClawHub-E03E3E)](https://clawhub.com) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 **[English →](./README.md)**
 
@@ -158,10 +158,10 @@ SKILL.md body 的推荐章节：
 - 必填字段（`name`、`description`）存在
 - 所有引用的二进制文件有效
 
-每次 push 和 PR 时都会运行验证。推荐使用 [skill-lint-action](https://github.com/OpenClawHQ/skill-lint-action) 获得更完整的检查和 PR 行内标注：
+每次 push 和 PR 时都会运行验证。推荐使用 [skill-lint-action](https://github.com/effectorHQ/skill-lint-action) 获得更完整的检查和 PR 行内标注：
 
 ```yaml
-- uses: OpenClawHQ/skill-lint-action@v1
+- uses: effectorHQ/skill-lint-action@v1
   with:
     fail-on-warnings: 'true'
 ```
@@ -174,7 +174,7 @@ skill 完成后：
 2. 确保 `SKILL.md` 包含所有必填字段
 3. push 到 repo 并打 release 标签（如 `v1.0.0`）
 4. 运行 `clawhub publish` 提交到注册中心
-5. （可选）向 [awesome-openclaw](https://github.com/OpenClawHQ/awesome-openclaw) 提交 PR
+5. （可选）向 [awesome-openclaw](https://github.com/effectorHQ/awesome-openclaw) 提交 PR
 
 ## 最佳实践
 
@@ -189,8 +189,8 @@ skill 完成后：
 
 - **OpenClaw 文档**：https://docs.openclaw.io
 - **ClawHub 注册中心**：https://clawhub.com
-- **贡献指南**：https://github.com/OpenClawHQ/.github/blob/main/CONTRIBUTING.md
-- **参考实现**：https://github.com/OpenClawHQ/linear-skill（零 lint 错误的生产级 skill 示例）
+- **贡献指南**：https://github.com/effectorHQ/.github/blob/main/CONTRIBUTING.md
+- **参考实现**：https://github.com/effectorHQ/linear-skill（零 lint 错误的生产级 skill 示例）
 
 ## License
 
@@ -198,4 +198,4 @@ MIT License。详见 [LICENSE](LICENSE)。
 
 ---
 
-由 [OpenClaw Skill 模板](https://github.com/OpenClawHQ/plugin-template)构建。每一条 claw 都能延伸触达。
+由 [OpenClaw Skill 模板](https://github.com/effectorHQ/plugin-template)构建。每一条 claw 都能延伸触达。
